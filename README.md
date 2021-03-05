@@ -118,7 +118,7 @@ What is the probability of finding Dr. Jekyll in St Anne's Churchyard after 2 cl
 
 Compute the final state of the system after 4 clicks of time. Based on your computation and after making a measurement of the system to observe the position of the particle, we will be able to find it in position 1 with a probability of:
 
-### Plot test is based on:
+## Plot test is based on:
 
 ![](Images/plots.png)
 
