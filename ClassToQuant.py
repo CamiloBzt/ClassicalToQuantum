@@ -49,15 +49,13 @@ def multipleSlitsQuantum(matrix, vect, clicks=1):
     :param clicks: int
     :return: Array
     """
-    matrix2 = []
-    for i in range(len(matrix)):
-        row = []
-        for j in range(len(matrix[i])):
-            row.append(round(abs(matrix[i][j]) ** 2, 3))
-        matrix2.append(row)
+
     vect2 = vect
     for i in range(clicks):
-        vect2 = np.dot(matrix2, vect2)
+        vect2 = np.dot(matrix, vect2)
+
+    for i in range(len(vect2)):
+        vect2[i][0] = abs(vect2[i][0])**2
     return vect2
 
 

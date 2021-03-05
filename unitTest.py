@@ -12,7 +12,7 @@ class TestClassToQuan(unittest.TestCase):
         vect = np.array([[6], [0], [3], [5], [3], [8]])
         clicks = 2
         ans = ctq.canicsBool(matrix, vect, clicks)
-        self.assertEqual(ans[2], [11])
+        self.assertEqual(ans[2][0], 11)
 
     def testSlitsProbabil(self):
         # Test 1
@@ -46,12 +46,16 @@ class TestClassToQuan(unittest.TestCase):
              [0, 0, -1 + 1j / np.sqrt(6), 0, 0, 0, 1, 0], [0, 0, -1 + 1j / np.sqrt(6), 0, 0, 0, 0, 1]])
         vect = np.array([[1], [0], [0], [0], [0], [0], [0], [0]])
         ans = ctq.multipleSlitsQuantum(matrix, vect, 2)  # 2 clicks
-        self.assertEqual(ans[5][0], 116.7)
+        # What is the probability on the fifth target?
+        self.assertEqual(round(ans[5][0].real, 3), 2.333)
         # Test 2
         matrix = np.array([[1 / np.sqrt(2), 1 / np.sqrt(2), 0], [-1j / np.sqrt(2), 1j / np.sqrt(2), 0], [0, 0, -1j]])
         vect = np.array([[1 / np.sqrt(3)], [2j / np.sqrt(15)], [np.sqrt(2 / 5)]])
-        ans = ctq.multipleSlitsQuantum(matrix, vect, 2)  # 2 clicks
-        self.assertEqual(ans[1][0], 116.7)
+        ans = ctq.multipleSlitsQuantum(matrix, vect, 4)  # 4 clicks
+        # Compute the final state of the system after 4 clicks of time. Based on your computation and after making a
+        # measurement of the system to observe the position of the particle, we will be able to find it in position 1
+        # with a probability of:
+        self.assertEqual(round(ans[1][0].real*100, 2), 30)
 
     def testPlot(self):
         matrix = np.array([[0, 1 / 6, 5 / 6], [1 / 3, 1 / 2, 1 / 6], [2 / 3, 1 / 3, 0]])
