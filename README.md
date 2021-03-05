@@ -74,9 +74,9 @@ The tests are based on different activities seen during the course.
 
 ##The marble test is based on:
 
-![](Images/marble.PNG)
+![](Images/marble.png)
 
-![](Images/marble2.PNG)
+![](Images/marble2.png)
 
 What is the amount of marbles that will be in box 2 after 5000 clicks.
 
@@ -84,11 +84,11 @@ What is the amount of marbles that will be in box 2 after 5000 clicks.
 
 ###Test 1:
 
- ![](Images/rendijaClasica.PNG)
+ ![](Images/rendijaClasica.png)
  
 ###Test 2:
 
- ![](Images/plots.PNG)
+ ![](Images/plots.png)
 
 Suppose the initial state of position is given by:
 
@@ -110,17 +110,17 @@ What is the probability of finding Dr. Jekyll in St Anne's Churchyard after 2 cl
 
 ###Test 1:
 
-![](Images/rendija.PNG)
+![](Images/rendija.png)
 
 ###Test 2:
 
-![](Images/quantum.PNG)
+![](Images/quantum.png)
 
 Compute the final state of the system after 4 clicks of time. Based on your computation and after making a measurement of the system to observe the position of the particle, we will be able to find it in position 1 with a probability of:
 
 ###Plot test is based on:
 
-![](Images/plots.PNG)
+![](Images/plots.png)
 
 Assume that the initial state of the assembled system Position-Personality, is given by the following initial states of the constituent states:
 Initial state of the system Position: The character is in Golden Square with 100% probability.
