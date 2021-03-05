@@ -70,6 +70,48 @@ In this moment you will have the repository in your PC
 
 For running the predetermined test you have to open the file **unitTest.py** and then just run it, then it will show you the results from the tests.
 
+The tests are based on different activities seen during the course.
+
+##The marble test is based on:
+![](Images/marble.PNG)
+##The slits classical is based on:
+###Test 1:
+ ![](Images/rendijaClasica.PNG)
+###Test 2:
+ ![](Images/plots.PNG)
+
+Suppose the initial state of position is given by:
+
+Probability of being in Golden Square: 1%.
+
+Probability of being in Soho Square: 90%.
+
+Probability of being in St Anne's Churchyard: 9%.
+
+And that the personality system is initially in state:
+
+Being Dr. Jekyll: 5%
+
+Being Mr. Hyde: 95%
+
+What is the probability of finding Dr. Jekyll in St Anne's Churchyard after 2 clicks of time? 
+
+##The slits quantum is based on:
+###Test 1:
+![](Images/rendija.PNG)
+
+###Test 2:
+![](Images/quantum.PNG)
+
+Compute the final state of the system after 4 clicks of time. Based on your computation and after making a measurement of the system to observe the position of the particle, we will be able to find it in position 1 with a probability of:
+
+###Plot test is based on:
+![](Images/plots.PNG)
+
+Assume that the initial state of the assembled system Position-Personality, is given by the following initial states of the constituent states:
+Initial state of the system Position: The character is in Golden Square with 100% probability.
+Initial state of the system Personality: The character has 80% probability of being initially Dr. Jekyll and 20% probability of being initially Mr. Hyde.
+
 
 ## Built With
 

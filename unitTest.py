@@ -66,6 +66,8 @@ class TestClassToQuan(unittest.TestCase):
         state2 = np.kron(vect1, vect2)
         asn = ctq.multipleSlitsProbabil(system, state2)  # 1 Click
         ctq.chart(asn)
+        asn = ctq.multipleSlitsProbabil(system, state2, 2)  # 2 Click
+        ctq.chart(asn)
 
 
 if __name__ == '__main__':
