@@ -74,6 +74,10 @@ The tests are based on different activities seen during the course.
 
 ##The marble test is based on:
 ![](Images/marble.PNG)
+
+![](Images/marble2.PNG)
+
+What is the amount of marbles that will be in box 2 after 5000 clicks.
 ##The slits classical is based on:
 ###Test 1:
  ![](Images/rendijaClasica.PNG)

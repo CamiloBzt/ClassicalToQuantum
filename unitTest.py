@@ -10,7 +10,7 @@ class TestClassToQuan(unittest.TestCase):
                            [False, True, False, False, False, True], [False, False, True, False, False, False],
                            [False, False, False, False, True, False], [True, False, False, False, False, False]])
         vect = np.array([[6], [0], [3], [5], [3], [8]])
-        clicks = 2
+        clicks = 5000
         ans = ctq.canicsBool(matrix, vect, clicks)
         self.assertEqual(ans[2][0], 11)
 
